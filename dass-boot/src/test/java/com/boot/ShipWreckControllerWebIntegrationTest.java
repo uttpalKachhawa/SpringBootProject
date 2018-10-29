@@ -22,10 +22,10 @@ import static org.hamcrest.Matchers.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(App.class)
-@WebIntegrationTest
+//@WebIntegrationTest
 public class ShipWreckControllerWebIntegrationTest {
 
-	@Test
+	/*@Test
 	public void testListall() {
 		RestTemplate template = new TestRestTemplate();
 
@@ -50,7 +50,7 @@ public class ShipWreckControllerWebIntegrationTest {
 				responseJson.toString(),
 				equalTo("{\"id\":2,\"name\":\"Titanic2\",\"description\":\"Titanic test\",\"condition\":\"FAIR\",\"depth\":55,\"latitude\":66.0,\"longitude\":77.0,\"yearDiscovered\":1988}"));
 
-	}
+	}*/
 	
 
 
